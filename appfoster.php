@@ -34,7 +34,7 @@ function appf_render_page() {
   include( $file );
 }
 /**********Enqueuing script and style************/
-wp_enqueue_script( 'appf-core-js', dirname( __FILE__ ) . '/assets/js/appf-core.js', array('jquery'), null, false );*/
+wp_enqueue_script( 'appf-core-js', dirname( __FILE__ ) . '/assets/js/appf-core.js', array('jquery'), null, false );
 wp_enqueue_style('appf-core-css', dirname( __FILE__ ) . '/assets/js/appf-core.css', null, false );
 
 /****create page endpoint****/
