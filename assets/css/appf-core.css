@@ -2,3 +2,7 @@
 /*--------------------------- 
 Add Plugin Front-End CSS here 
 ---------------------------*/
+th{
+	color: #00a1ff;
+	font-weight: bold;
+}
